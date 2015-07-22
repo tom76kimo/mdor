@@ -3,7 +3,7 @@ import React from 'react';
 // add whatever you want to play with
 import mdor from './index';
 
-const {Badge, Button, Slider, Tooltip, Checkbox, Radio, RadioGroup} = mdor;
+const {Badge, Button, Slider, Tooltip, Checkbox, ProgressBar, Radio, RadioGroup} = mdor;
 
 class Playground extends React.Component {
   render() {
@@ -30,6 +30,14 @@ class Playground extends React.Component {
         </div>
         <div className="row">
           <Badge class="asdf" style={{color: 'rgba(0, 0, 0, 0.24)'}} iconify icon="12">account_box</Badge>
+        </div>
+        <div className="row">
+          <div style={{display: 'inline-block'}}>
+            <ProgressBar style={{marginRight: 20}} indeterminate buffer="87" progress="33"/>
+          </div>
+          <div style={{display: 'inline-block'}}>
+            <ProgressBar buffer="87" progress="33"/>
+          </div>
         </div>
       </div>
     );
