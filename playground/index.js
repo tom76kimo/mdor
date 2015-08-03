@@ -6,6 +6,7 @@ import Checkbox from '../src/components/Checkbox';
 import Radio from '../src/components/Radio';
 import RadioGroup from '../src/components/RadioGroup';
 import Spinner from '../src/components/Spinner';
+import NavigationLayout from '../src/components/NavigationLayout';
 
 export default {
     Badge: Badge,
@@ -16,4 +17,5 @@ export default {
     Slider: Slider,
     Tooltip: Tooltip,
     Spinner: Spinner,
+    NavigationLayout: NavigationLayout,
 };
